@@ -1,7 +1,6 @@
 /* 기본 설정 */
 * { box-sizing: border-box; margin: 0; padding: 0; }
 body { background-color: #f0f0f0; font-family: 'NanumDongHwaDdoBag', 'Noto Sans KR', sans-serif; font-size: 21px; color: #333; line-height: 1.6; }
-
 /* 모바일 래퍼 */
 @font-face {
     font-family: 'NanumDongHwaDdoBag';
@@ -9,7 +8,6 @@ body { background-color: #f0f0f0; font-family: 'NanumDongHwaDdoBag', 'Noto Sans 
     font-weight: normal;
     font-style: normal;
 }
-
 .wrap {
     max-width: 480px;
     margin: 0 auto;
@@ -17,7 +15,6 @@ body { background-color: #f0f0f0; font-family: 'NanumDongHwaDdoBag', 'Noto Sans 
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     overflow: hidden;
 }
-
 /* 공통 섹션 스타일 */
 .section-padding { padding: 50px 20px; text-align: center; border-bottom: 1px solid #eee; }
 .section-title { font-size: 30px; font-weight: 500; margin-bottom: 30px; color: #333; }
