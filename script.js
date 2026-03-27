@@ -14,7 +14,7 @@ const eventConfig = {
     
     // 행사 정보
     event: {
-        date: new Date(2026, 4, 25),  // 2026년 4월 25일
+        date: new Date(2026, 3, 25),  // 2026년 4월 25일
         time: '오전 11:30',
         place: '플로렌스 오목교점',
         hallName: '튜울립홀'
