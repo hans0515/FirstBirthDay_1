@@ -660,3 +660,61 @@ body {
     margin-top: 15px;
     cursor: pointer;
 }
+
+/* =========================================
+   전체 폰트 사이즈 +5px 일괄 확대 적용
+   ========================================= */
+
+body { font-size: 26px; }
+.section-title { font-size: 35px; }
+.sub-title { font-size: 33px; }
+.btn-primary, .btn-outline { font-size: 31px; }
+
+/* 메인 섹션 */
+.baby-name { font-size: 31px; }
+.event-time, .event-place { font-size: 21px; }
+.parents-name { font-size: 20px; }
+.greeting-text { font-size: 20px; }
+.parents-sign { font-size: 21px; }
+
+/* 캘린더 & D-Day */
+.calendar-date { font-size: 21px; }
+.calendar-place { font-size: 20px; }
+.d-day-text { font-size: 21px; }
+.calendar-wrap.apple-style h3 { font-size: 25px; }
+.cal-day { font-size: 20px; }
+
+/* D-Day 동그라미 크기도 글자 크기에 맞춰 살짝 키움 */
+.cal-day.dday { 
+    width: 42px; 
+    height: 42px; 
+    line-height: 42px; 
+}
+
+/* 성장일기 */
+.growth-card-info .date { font-size: 18px; }
+.growth-card-info .title { font-size: 22px; }
+
+/* 갤러리 슬라이더 */
+.slide-btn { font-size: 23px; }
+.slider-counter { font-size: 19px; }
+
+/* 오시는 길 */
+.btn-map { font-size: 19px; }
+.map-info dt { font-size: 19px; }
+.map-info dd { font-size: 19px; }
+
+/* 공유 버튼 */
+.share-btn { font-size: 17px; }
+/* 공유 버튼 아이콘 크기도 비례해서 키움 */
+.share-btn.link::before,
+.share-btn.kakao::before {
+    font-size: 29px; 
+}
+
+/* 하단 팝업 (연락하기) */
+.sheet-title { font-size: 25px; }
+.contact-info .role { font-size: 17px; }
+.contact-info .name { font-size: 22px; }
+.btn-icon { font-size: 25px; }
+.btn-close-sheet { font-size: 22px; }

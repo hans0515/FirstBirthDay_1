@@ -41,16 +41,49 @@ const eventConfig = {
 const dDayDate = eventConfig.event.date;
 
 // 성장 일기 데이터 (경로 수정됨)
+// 성장 일기 데이터 (images/growth 폴더 반영)
 const growthData = [
-    { date: '2025.04.28', title: '처음 세상에 태어난 날', img: './images/20260219_155011.jpg' },
-    { date: '2025.08.28', title: '백일 잔치', img: './images/main_1.jpg' },
-    { date: '2026.04.25', title: '첫 돌', img: './images/20260219_155011.jpg' }
+    { date: '2025.04.28', title: '태어난 날', img: './images/growth/20250428_104443.jpg' },
+    { date: '생후 1개월', title: '1개월', img: './images/growth/KakaoTalk_20260314_234545880_11.jpg' },
+    { date: '생후 2개월', title: '2개월', img: './images/growth/KakaoTalk_20260314_234545880_17.jpg' },
+    { date: '생후 3개월', title: '3개월', img: './images/growth/KakaoTalk_20260314_234545880_21.jpg' },
+    { date: '생후 4개월', title: '4개월', img: './images/growth/KakaoTalk_20260314_234545880_27.jpg' },
+    { date: '생후 5개월', title: '5개월', img: './images/growth/KakaoTalk_20260314_234555309_01.jpg' },
+    { date: '생후 6개월', title: '6개월', img: './images/growth/KakaoTalk_20260314_234555309_08.jpg' },
+    { date: '생후 7개월', title: '7개월', img: './images/growth/KakaoTalk_20260314_234604040_05.jpg' },
+    { date: '생후 8개월', title: '8개월', img: './images/growth/KakaoTalk_20260315_224339002.jpg' },
+    { date: '생후 9개월', title: '9개월', img: './images/growth/KakaoTalk_20260314_234612177_20.jpg' },
+    { date: '생후 10개월', title: '10개월', img: './images/growth/KakaoTalk_20260314_234625430_23.jpg' }
 ];
 
 // 갤러리 이미지 데이터 (경로 수정됨)
 const galleryPhotos = [
-    './images/main_1.jpg', './images/20260219_155011.jpg', './images/main_1.jpg', 
-    './images/20260219_155011.jpg', './images/main_1.jpg', './images/20260219_155011.jpg'
+'./images/gallery/20250131_150748.jpg',
+'./images/gallery/20250516_133236.jpg',
+'./images/gallery/20250524_123034.jpg',
+'./images/gallery/20250608_123047.jpg',
+'./images/gallery/20250619_171542.jpg',
+'./images/gallery/20250619_172716.jpg',
+'./images/gallery/20250619_174239.jpg',
+'./images/gallery/20250809_150943.jpg',
+'./images/gallery/20250815_150940.jpg',
+'./images/gallery/20250815_152611.jpg',
+'./images/gallery/20250816_121819.jpg',
+'./images/gallery/20250927_123149.jpg',
+'./images/gallery/20251021_213104.jpg',
+'./images/gallery/20251031_100952.jpg',
+'./images/gallery/20251121_151441.jpg',
+'./images/gallery/20251122_135807.jpg',
+'./images/gallery/20251208_133008.jpg',
+'./images/gallery/20251221_145651.jpg',
+'./images/gallery/20251221_163057.jpg',
+'./images/gallery/20251224_115742.jpg',
+'./images/gallery/20260105_161016.jpg',
+'./images/gallery/20260217_185914.jpg',
+'./images/gallery/20260219_152156.jpg',
+'./images/gallery/20260219_155011.jpg',
+'./images/gallery/20260223_162802.jpg',
+'./images/gallery/20260302_175116.jpg'
 ];
 
 // --- 초기화 ---
