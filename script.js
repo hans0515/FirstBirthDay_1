@@ -86,7 +86,7 @@ function initializeEvent() {
     const eventTimeEl = document.querySelector('.event-time');
     if(eventTimeEl) eventTimeEl.textContent = `${dateStr} (${dayOfWeek}) ${eventConfig.event.time}`;
     
-    // 3. 행사 장소
+    // 3. 행사 장소 (HTML에 event-place 클래스가 2개 있으므로 모두 적용)
     document.querySelectorAll('.event-place').forEach(el => {
         el.innerHTML = `${eventConfig.event.place}<br>${eventConfig.event.hallName}`;
     });
@@ -101,19 +101,13 @@ function initializeEvent() {
     const calendarDateEl = document.querySelector('.calendar-date');
     if(calendarDateEl) calendarDateEl.textContent = `${dateStr} ${dayOfWeek}요일 ${eventConfig.event.time}`;
     
-    // [수정됨] .calendar-place 요소가 HTML에 없을 수 있으므로 방어 코드 추가
-    const calendarPlaceEl = document.querySelector('.calendar-place');
-    if(calendarPlaceEl) {
-        calendarPlaceEl.textContent = `${eventConfig.event.place} ${eventConfig.event.hallName}`;
-    }
-    
-    // [수정됨] 방명록 섹션이 주석처리 되어있으므로 방어 코드 추가
+    // 6. 방명록 섹션 (주석 처리되어 있으므로 if문으로 방어)
     const commentsTitleEl = document.querySelector('#section-comments .section-title');
     if(commentsTitleEl) {
         commentsTitleEl.textContent = eventConfig.babyName + '의 생일을 축하해주세요!';
     }
     
-    // [수정됨] 계좌 섹션이 주석처리 되어있으므로 방어 코드 추가
+    // 7. 계좌 섹션 (주석 처리되어 있으므로 if문으로 방어)
     const fatherAccEl = document.getElementById('father-acc');
     if(fatherAccEl) {
         fatherAccEl.querySelector('p').innerHTML = `${eventConfig.parents.father.name}<br><strong>${eventConfig.accounts.father.bank} ${eventConfig.accounts.father.account}</strong>`;
