@@ -60,19 +60,19 @@ const growthData = [
 // 갤러리 이미지 데이터 (경로 수정됨)
 const galleryPhotos = [
     './images/gallery/20250131_150748.jpg',
-    './images/gallery/20250131_150748.jpg',
-    './images/gallery/20250131_150748.jpg',
-    './images/gallery/20250131_150748.jpg',
-    './images/gallery/20250131_150748.jpg',
-    './images/gallery/20250131_150748.jpg',
-    './images/gallery/20250131_150748.jpg',
-    './images/gallery/20250131_150748.jpg',
-    './images/gallery/20250131_150748.jpg',
-    './images/gallery/20250131_150748.jpg',
-    './images/gallery/20250131_150748.jpg',
-    './images/gallery/20250131_150748.jpg',
-    './images/gallery/20250131_150748.jpg',
-    './images/gallery/20250131_150748.jpg'
+    './images/gallery/20250516_133236.jpg',
+    './images/gallery/20250524_123034.jpg',
+    './images/gallery/20250619_171542.jpg',
+    './images/gallery/20250619_172716.jpg',
+    './images/gallery/20250619_174239.jpg',
+    './images/gallery/20250815_150940.jpg',
+    './images/gallery/20250815_152611.jpg',
+    './images/gallery/20250816_121819.jpg',
+    './images/gallery/20250927_123149.jpg',
+    './images/gallery/20251224_115742.jpg',
+    './images/gallery/20260217_185914.jpg',
+    './images/gallery/20260219_152156.jpg',
+    './images/gallery/20260219_155011.jpg'
 ];
 
 // --- 초기화 ---
